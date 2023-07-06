@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}.menu-container{
+    background-color: rgb(30, 23, 23);
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.logo-photo{
+    width: 150px;
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding: 2px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.item:hover{
+    color: red;
+}
+
+.banner-img{
+    width: 300px;
+}
+.banner-text{
+    color: white;
+    display: flex;
+justify-content: space-around;
+height: 100vh;
+align-items: center;
+background-image: url(./background.png),linear-gradient(45deg,black,rgb(71, 69, 69));
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+h2{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.btn{
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.llk{
+    width: 300px;
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.second-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+.icon{
+    width: 250px;
+    height: 240px;
+    box-shadow: 10px 10px 15px 10px  gray;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border-radius: 10px;
+    
+}
+.mdg{
+    width: 50px ;
+}
+.nnh{
+    padding: 10px;
+}
+.third-main{
+    background-color: rgb(29, 25, 25);
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+   
+    
+}
